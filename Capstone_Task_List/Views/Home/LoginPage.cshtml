@@ -1,0 +1,16 @@
+﻿
+@{
+	ViewBag.Title = "LoginPage";
+}
+<br />
+<h2>Welcome to the Task List</h2><br />
+
+<fieldset>
+	<legend> Sign Up</legend>
+	<form action="/Home/AddUser" style="margin:auto;" method="post">
+		<label class="control-label">Email</label><input type="email" name="Email" class="form-control" placeholder="EmailAddress@email.com" title="Please insert a valid email" required pattern="" /><br />
+		<label class="control-label">Password</label><input type="Password" name="Password" class="form-control" placeholder="Password" title="Please insert a valid password" required /><br />
+		<input type="submit" value="Sign Up" class="btn" /><br /><br />
+	</form><br />
+</fieldset>
+
